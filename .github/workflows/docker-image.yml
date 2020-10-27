@@ -41,7 +41,7 @@ jobs:
 #         # List of metadata for an image
 #         labels: # optional
 #         # List of tags
-          tags: ${{ secrets.DOCKER_USERNAME }}/docker-stats-logger:0.0.1 # optional
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker-stats-logger:0.0.2 # optional
 #         # Always attempt to pull a newer version of the image
 #         pull: # optional, default is false
 #         # Sets the target stage to build
