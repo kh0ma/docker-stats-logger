@@ -41,7 +41,7 @@ jobs:
 #         # List of metadata for an image
 #         labels: # optional
 #         # List of tags
-          tags: ${{ secrets.DOCKER_USERNAME }}/docker-stats-logger:0.0.7 # optional
+          tags: ${{ secrets.DOCKER_USERNAME }}/docker-stats-logger:0.1.0 # optional
 #         # Always attempt to pull a newer version of the image
 #         pull: # optional, default is false
 #         # Sets the target stage to build
@@ -51,7 +51,7 @@ jobs:
 #         # Do not use cache when building the image
 #         no-cache: # optional, default is false
 #         # List of target platforms for build
-#         platforms: # optional
+          platforms: linux/amd64,linux/arm64 # see https://github.com/marketplace/actions/docker-build-push-action#multi-platform-builds
 #         # Load is a shorthand for --output=type=docker
 #         load: # optional, default is false
 #         # Push is a shorthand for --output=type=registry

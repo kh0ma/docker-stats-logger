@@ -1,4 +1,4 @@
-FROM docker:19.03.13-dind
+FROM docker:24.0.5-cli
 
 COPY docker-stats-logging.sh /
 
